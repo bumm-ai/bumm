@@ -1,0 +1,8 @@
+# Игнорируем всё
+*
+
+# Разрешаем только эти файлы
+!.gitignore
+!CONTRIBUTING.md
+!LICENSE
+!README.md
