@@ -201,7 +201,7 @@ This project was developed for the **Colosseum Hackathon** and demonstrates:
 ### Repository Access for Judges
 - **Main Documentation**: This repository (public)
 - **Source Code**: Private repositories (access granted to `hackthon@colosseum.com`)
-- **Contact**: team@bumm.io for access requests
+- **Contact**: support@bumm.io for access requests
 
 ---
 
