@@ -113,7 +113,7 @@ For feature requests, please include:
 
 ### Reporting Security Issues
 - **DO NOT** create public issues for security vulnerabilities
-- Email security issues to: security@bumm.dev
+- Email security issues to: support@bumm.io
 - Include detailed information about the vulnerability
 - Allow reasonable time for response before disclosure
 
@@ -161,7 +161,7 @@ Contributors will be recognized in:
 
 - **Discord**: Join our community Discord
 - **GitHub Discussions**: Use GitHub Discussions for questions
-- **Email**: Contact us at support@bumm.dev
+- **Email**: Contact us at support@bumm.io
 
 ## 📄 License
 
