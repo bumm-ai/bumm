@@ -1,210 +1,86 @@
-# 🚀 BUMM - AI-Powered Solana Smart Contract Builder
+# BUMM — AI-Powered Solana Smart Contract Builder
 
-> **Hackathon Project**: AI-driven platform for generating, auditing, and deploying Solana smart contracts with advanced security features.
+> **Colosseum hackathon submission.** Bumm turns a plain-English prompt into an audited, deployed Anchor program on Solana — generation, build, security audit, auto-fix, and deploy run end-to-end behind a chat UI.
 
-## 🎯 Project Overview
-
-BUMM is a comprehensive AI-powered platform that revolutionizes Solana smart contract development by providing:
-
-- **AI Contract Generation**: Generate Solana smart contracts from natural language descriptions
-- **Advanced Security Auditing**: Automated security analysis and vulnerability detection
-- **One-Click Deployment**: Seamless deployment to Solana blockchain
-- **Real-time Monitoring**: Track contract status and performance
-- **Multi-LLM Integration**: Support for OpenAI, Anthropic, and Google Gemini
-
-## 🏗️ Architecture
-
-### Core Components
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │    │   Backend API   │    │   AI Agents     │
-│   (Next.js)     │◄──►│   (FastAPI)     │◄──►│   (Python)      │
-│                 │    │                 │    │                 │
-│ • Dashboard     │    │ • REST API      │    │ • Generation    │
-│ • Wallet Connect│    │ • Database      │    │ • Security      │
-│ • Real-time UI  │    │ • Task Queue    │    │ • Deployment    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
-
-## 🔗 Private Repository Links
-
-### Main Components (Private Repositories)
-- **Frontend Dashboard**: [bumm-frontend](https://github.com/bumm-ai/frontend) - Next.js React application
-- **Backend API**: [bumm-backend](https://github.com/bumm-ai/bumm-api) - FastAPI Python backend
-
-
-### Repository Access
-- **Main Documentation**: [https://github.com/bumm-ai/bumm](https://github.com/bumm-ai/bumm) (This repository)
-- **Hackathon Access**: Grant access to `hackthon@colosseum.com` for private repositories
-- **License**: UNLICENSED (Proprietary)
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- Python 3.11+
-- Solana CLI
-- Docker (optional)
-
-### Frontend Setup
-```bash
-# Clone private frontend repository
-git clone https://github.com/bumm-ai/frontend.git
-cd frontend
-npm install
-npm run dev
-```
-
-### Backend Setup
-```bash
-# Clone private backend repository
-git clone https://github.com/bumm-ai/bumm-api.git
-cd bumm-api
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-## 🛠️ Key Features
-
-### 1. AI Contract Generation
-- **Natural Language Processing**: Convert descriptions to Solana programs
-- **Multi-LLM Support**: OpenAI GPT-4, Anthropic Claude, Google Gemini
-- **Template System**: Pre-built contract templates for common use cases
-- **Real-time Progress**: Live updates during generation process
-
-### 2. Security Auditing
-- **Automated Analysis**: AI-powered vulnerability detection
-- **Multi-layer Security**: Static analysis, dynamic testing, pattern recognition
-- **Compliance Checking**: Solana-specific security best practices
-- **Detailed Reports**: Comprehensive security assessment reports
-
-### 3. Solana Integration
-- **Wallet Connection**: Seamless Solana wallet integration
-- **Program Deployment**: One-click deployment to Solana devnet/mainnet
-- **Transaction Management**: Handle Solana transactions and fees
-- **Account Management**: Manage program accounts and data
-
-### 4. Real-time Dashboard
-- **Live Status Updates**: Real-time task progress monitoring
-- **Project Management**: Organize and track multiple contracts
-- **Code Editor**: Built-in code editor with syntax highlighting
-- **Deployment History**: Track all deployment activities
-
-## 🔒 Security Features
-
-- **Automated Vulnerability Scanning**: AI-powered security analysis
-- **Code Quality Checks**: Automated code review and optimization
-- **Access Control**: Role-based permissions and user management
-- **Audit Trail**: Complete logging of all activities
-- **Encryption**: End-to-end encryption for sensitive data
-
-## 🌐 Solana Ecosystem Integration
-
-### Supported Solana Features
-- **Program Development**: Rust-based Solana programs
-- **Account Management**: PDA (Program Derived Address) handling
-- **Cross-Program Invocations**: Inter-program communication
-- **Token Standards**: SPL Token integration
-- **DeFi Protocols**: Integration with popular Solana DeFi protocols
-
-### Deployment Options
-- **Devnet**: Testing and development
-- **Testnet**: Pre-production testing
-- **Mainnet**: Production deployment
-- **Custom Networks**: Support for custom Solana networks
-
-## 📊 Performance Metrics
-
-- **Generation Speed**: < 30 seconds for simple contracts
-- **Security Coverage**: 95%+ vulnerability detection rate
-- **Deployment Success**: 99.9% successful deployments
-- **User Experience**: < 2 second response times
-
-## 🎨 UI/UX Highlights
-
-- **Modern Design**: Clean, intuitive interface
-- **Responsive Layout**: Works on desktop and mobile
-- **Dark/Light Theme**: User preference support
-- **Accessibility**: WCAG 2.1 compliant
-- **Real-time Updates**: Live progress indicators
-
-## 🔧 Technical Stack
-
-### Frontend
-- **Framework**: Next.js 15 with React 19
-- **Styling**: Tailwind CSS
-- **State Management**: React Hooks
-- **Wallet Integration**: Solana Wallet Adapter
-- **UI Components**: Radix UI
-
-### Backend
-- **Framework**: FastAPI (Python)
-- **Database**: PostgreSQL with Alembic migrations
-- **Task Queue**: Celery with Redis
-- **API Documentation**: OpenAPI/Swagger
-- **Authentication**: JWT tokens
-
-### AI/ML
-- **LLM Integration**: OpenAI, Anthropic, Google Gemini
-- **Security Analysis**: Custom ML models
-- **Code Generation**: Transformer-based models
-- **Pattern Recognition**: Rule-based + ML hybrid
-
-### Infrastructure
-- **Containerization**: Docker
-- **Orchestration**: Docker Compose
-- **Cloud**: AWS/GCP/Azure ready
-- **Monitoring**: Prometheus + Grafana
-- **CI/CD**: GitHub Actions
-
-## 📈 Future Roadmap
-
-### Phase 1 (Current)
-- ✅ Core contract generation
-- ✅ Basic security auditing
-- ✅ Solana wallet integration
-- ✅ Dashboard interface
-
-### Phase 2 (Next)
-- 🔄 Advanced security features
-- 🔄 Multi-chain support
-- 🔄 Team collaboration tools
-- 🔄 API marketplace
-
-### Phase 3 (Future)
-- 📋 Enterprise features
-- 📋 Custom AI model training
-- 📋 Advanced analytics
-- 📋 Community marketplace
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](./CONTRIBUTING.md) for details.
-
-## 📄 License
-
-This project is licensed under the UNLICENSED License - see the [LICENSE](./LICENSE) file for details.
-
-## 🏆 Hackathon Submission
-
-This project was developed for the **Colosseum Hackathon** and demonstrates:
-
-- **Significant Development Work**: Complete full-stack application
-- **Original Implementation**: All code developed by our team
-- **Strategic Prioritization**: Focus on core Solana functionality
-- **Solana Integration**: Deep integration with Solana ecosystem
-
-### Demo Links
-- **Live Demo**: [https://bumm.io](https://bumm.io)
-
-### Repository Access for Judges
-- **Main Documentation**: This repository (public)
-- **Source Code**: Private repositories (access granted to `hackthon@colosseum.com`)
-- **Contact**: support@bumm.io for access requests
+This repository is the umbrella entry point. The active code lives in two public component repositories linked below.
 
 ---
 
-**Built with ❤️ for the Solana ecosystem**
+## What we're building
 
-*For hackathon judges: This repository contains the complete documentation of BUMM. The actual source code is in private repositories with access granted to hackthon@colosseum.com for judging purposes.*
+Bumm is a "prompt-to-program" pipeline for Solana. You describe a contract in chat — *"escrow with 7-day timelock"*, *"staking with linear rewards"*, *"AMM with a wSOL leg"* — and a multi-stage agent does the rest:
+
+1. **Enrich** — turns the loose prompt into a structured spec.
+2. **Generate** — produces an Anchor 0.32 crate (Rust) using a curated knowledge base of Solana patterns and pitfalls.
+3. **Build** — compiles in an isolated cargo runner with a warm-target image (cold compile **900s → 176s**).
+4. **Audit** — runs static checks (clippy + cargo-audit + 14 categories of Solana-specific regex rules: `UncheckedAccount` safety, native-SOL/SPL mixing, vault rent-exemption, dead accounts, phantom fields, …) **in parallel** with an LLM auditor backed by a 117-vector Qdrant knowledge base.
+5. **Fix** — applies LLM-driven and rule-driven fixes, re-builds, re-audits.
+6. **Deploy** — uploads to devnet/testnet/mainnet via `solana program deploy`, with on-chain SOL → credits accounting.
+
+Live progress streams to the frontend via WebSocket (with REST polling fallback) so the user watches every stage.
+
+---
+
+## Component repositories
+
+| Component | Repo | Stack |
+|-----------|------|-------|
+| **Frontend** | [`bumm-ai/frontend_v3`](https://github.com/bumm-ai/frontend_v3) | Next.js 14, React 18, TypeScript, Tailwind, `@solana/web3.js`, wallet-adapter |
+| **Backend** | [`bumm-ai/bumm-api-2.0`](https://github.com/bumm-ai/bumm-api-2.0) | Python 3.12, FastAPI, LangGraph, PostgreSQL, Redis, Qdrant, Docker |
+
+> The backend repo we publish for the hackathon (`bumm-api-2.0`) is the **work-in-progress version** we're updating in stages — judges can follow the trajectory of how the pipeline evolved. The production-grade backend that powers the live demo continues to be hardened in private.
+
+---
+
+## Why now
+
+Solana's developer funnel is brutal: Anchor's learning curve, BPF toolchain quirks, and the gap between *"compiles"* and *"actually safe"* filter out most builders before they ship. We've watched real contracts burn weeks on `UncheckedAccount` footguns, seed-binding lifetime errors, and AMM designs that mix native lamports with SPL CPIs — bugs that are mechanical to detect once you know the pattern.
+
+The pieces finally align: Claude Sonnet 4.5 / GPT-5 can generate non-trivial Rust when guided by a structured KB; prompt caching makes multi-turn agents economical; and Solana's tooling (Anchor 0.32, surfpool, `solana-program-test`) is mature enough to close the loop end-to-end. Eighteen months ago the LLMs hallucinated lifetimes; six months from now every L1 will have this. The window to set the dev-tooling pattern on Solana is open right now.
+
+---
+
+## Highlights of recent engineering work
+
+A condensed view of the last two phases of pipeline hardening (full week-by-week dev logs ship in the frontend repo under `docs/DEV_LOG_BUMM_WEEK_*.md`):
+
+- **Phase F closeout** (F0–F6) — pipeline hardening complete, 673 backend tests green.
+- **Phase G STEPs 1–8** —
+  - warm cargo target image (cold 900s → **176s**),
+  - per-stage durations persisted (Alembic 0009),
+  - `audit_static` parallelised via `asyncio.gather`,
+  - Anthropic prompt caching wrapper (`cache_control: ephemeral`),
+  - host target pre-warm (cycle-2 audit_static **95s → 3.4s**).
+- **Audit depth** — `generate.md` rules 17/20/21/22 (`/// CHECK:` doc, seed binding, `checked_pow`, wSOL pattern); `audit.md` categories 13/14 (native-SOL/SPL mixing CRITICAL, vault rent-exemption HIGH); `_check_native_sol_token_mixing` regex detector; KB re-seeded to **117 vectors**.
+- **Deploy correctness** — discovered and fixed a CRITICAL bug where `find_so` was selecting the warm-seed Hello-World binary over the user crate, pinning every deploy to a single shared program ID. Resolver now requires an exact `bumm_<uid>.so` match; warm-seed leftovers are scrubbed from `target/deploy/` after each seed; Alembic migration 0010 backfilled affected contracts with `requires_redeploy=true` and a UI re-deploy banner.
+- **Reliability** — deploy idempotency (`is_step_in_flight` + 409); WS+REST polling fallback in the frontend `useContractStream` hook; `builds_gc` apscheduler tick (5 min, 7-day retention).
+
+---
+
+## Tech stack
+
+**Solana** — Anchor 0.32.1, solana-cli, BPFLoaderUpgradeable, surfpool (local validator), SPL Token, wSOL, PDA + CPI patterns.
+
+**Backend** — Python 3.12 · FastAPI · LangGraph (state-machine pipeline) · PostgreSQL 16 + SQLAlchemy 2.0 async + Alembic · Redis (pub/sub) · Qdrant (vector KB) · Docker · isolated cargo build runner with warm-target seeding · apscheduler.
+
+**AI / LLM** — Anthropic Claude (Sonnet 4.5) primary generator + auditor with prompt caching · OpenAI GPT-5 fallback · custom static analyzers (regex + AST) for Solana-specific anti-patterns · RAG over Qdrant for audit rules and generation pitfalls.
+
+**Frontend** — Next.js 14 · React 18 · TypeScript · Tailwind · shadcn/ui · `@solana/web3.js` + wallet-adapter (Phantom, Solflare) · custom WebSocket hub with REST polling fallback · Sign-in-with-Solana (nonce → ed25519 → JWT).
+
+**Auth & payments** — wallet-based JWT (access + refresh) · on-chain SOL → credits ledger, idempotent by tx signature.
+
+**Dev tooling** — pytest + pytest-asyncio (673 backend tests) · Playwright (frontend) · ruff · mypy · eslint · GitHub Actions CI · **Claude Code** (used heavily for pipeline iteration, migrations, audit-rule authoring).
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## License
+
+[MIT](./LICENSE).
+
+---
+
+*Built for the Solana ecosystem.*
