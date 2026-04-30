@@ -26,9 +26,9 @@ Live progress streams to the frontend via WebSocket (with REST polling fallback)
 | Component | Repo | Stack |
 |-----------|------|-------|
 | **Frontend** | [`bumm-ai/frontend_v3`](https://github.com/bumm-ai/frontend_v3) | Next.js 14, React 18, TypeScript, Tailwind, `@solana/web3.js`, wallet-adapter |
-| **Backend** | [`bumm-ai/bumm-api-2.0`](https://github.com/bumm-ai/bumm-api-2.0) | Python 3.12, FastAPI, LangGraph, PostgreSQL, Redis, Qdrant, Docker |
+| **Backend** | [`bumm-ai/bumm-backend`](https://github.com/bumm-ai/bumm-backend) | Python 3.12, FastAPI, LangGraph, PostgreSQL, Redis, Qdrant, Docker |
 
-> The backend repo we publish for the hackathon (`bumm-api-2.0`) is the **work-in-progress version** we're updating in stages — judges can follow the trajectory of how the pipeline evolved. The production-grade backend that powers the live demo continues to be hardened in private.
+> The backend repo we publish for the hackathon (`bumm-backend`) is the **work-in-progress version** we're updating in stages — judges can follow the trajectory of how the pipeline evolved. The production-grade backend that powers the live demo continues to be hardened in private.
 
 ---
 
