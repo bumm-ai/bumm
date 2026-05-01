@@ -26,9 +26,9 @@ Live progress streams to the frontend via WebSocket (with REST polling fallback)
 | Component | Repo | Stack |
 |-----------|------|-------|
 | **Frontend** | [`bumm-ai/frontend_v3`](https://github.com/bumm-ai/frontend_v3) | Next.js 14, React 18, TypeScript, Tailwind, `@solana/web3.js`, wallet-adapter |
-| **Backend** | [`bumm-ai/bumm-backend`](https://github.com/bumm-ai/bumm-backend) | Python 3.12, FastAPI, LangGraph, PostgreSQL, Redis, Qdrant, Docker |
+| **Backend** | [`bumm-ai/backend_v3`](https://github.com/bumm-ai/backend_v3) *(private — access shared with judges)* | Python 3.12, FastAPI, LangGraph, PostgreSQL, Redis, Qdrant, Docker |
 
-> The backend repo we publish for the hackathon (`bumm-backend`) is the **work-in-progress version** we're updating in stages — judges can follow the trajectory of how the pipeline evolved. The production-grade backend that powers the live demo continues to be hardened in private.
+> The backend repository is **private** because it ships with prod-tuned prompts, the curated Qdrant knowledge base, and audit-rule sources we don't want scraped by competitors. Per Colosseum's submission rules, access has been granted to **hackathon@colosseum.org** so judges can review the full source. If you're a judge and can't see the repo, ping that email — the invite is already sent.
 
 ---
 
